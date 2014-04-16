@@ -1,7 +1,5 @@
-from specialInput import *
-#! /usr/bin/env python
-import random
-sides=int_input("How many sides the die should have?")
-dice=int_input("How many dice?")
-for roll in range(1,dice):
-    print random.randint(1,sides)
+#import
+#Ask how many dice
+#For each dice
+#Ask how many sides
+#Print a random number from 1 to sides
