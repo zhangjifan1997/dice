@@ -1,3 +1,5 @@
+from specialInput import *
 #! /usr/bin/env python
 import random
-print random.randint(1,6)
+sides=int_input("How many sides the die should have?")
+print random.randint(1,sides)
